@@ -1,17 +1,4 @@
 var http = require('http');
-//const BufferList = require('bl');
-var args = [];
-
- process.argv.forEach(function(ele, index){
-    if(index > 1){
-        args.push(ele);
-    }
-});
-
-console.log(args);
-
-
-var http = require('http');
 var bl = require('bl');
 var count = 2;
 
